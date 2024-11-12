@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 66 66" viewBox="0 0 66 66" id="ContactUs">
+  <g id="icons" fill="#000000" class="color000000 svgShape">
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M5.1 35.6c0-4.2.9-8.2 2.6-11.8M58.7 51.2c-3.5 5.3-8.9 9.4-15.2 11.3-2.5.8-5.3 1.2-8.1 1.2M58.5 23.9c1.7 3.6 2.6 7.5 2.6 11.8 0 .2 0 .4 0 .6" class="colorStroke000000 svgStroke"></path>
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M55.9 24.6c-1.6 0-3.3-.8-4.3-2.2-4.3-6-11.2-9.5-18.5-9.5-7.3 0-14.2 3.6-18.5 9.5-1.7 2.4-5 2.9-7.3 1.2-2.4-1.7-2.9-5-1.2-7.3C12.3 7.6 22.4 2.4 33.1 2.4s20.8 5.2 27 13.9c1.7 2.4 1.1 5.6-1.2 7.3C58 24.3 57 24.6 55.9 24.6zM7.1 51.2H2v-15h5.1c1.2 0 2.2 1 2.2 2.2V49C9.3 50.2 8.3 51.2 7.1 51.2zM58.9 51.2H64v-15h-5.1c-1.2 0-2.2 1-2.2 2.2V49C56.7 50.2 57.7 51.2 58.9 51.2zM35.5 63.6v-1.3c0-2.2 1.8-4 4-4 1.1 0 2.1.5 2.9 1.2.7.7 1.2 1.8 1.2 2.9v.1" class="colorStroke000000 svgStroke"></path>
+    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="49.2 33.5 49.2 53.6 16.8 53.6 16.8 33.5"></polyline>
+    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="49.2 33.5 33 44.1 16.8 33.5"></polyline>
+    <line x1="49.2" x2="38.2" y1="53.7" y2="40.7" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" class="colorStroke000000 svgStroke"></line>
+    <line x1="27.8" x2="16.8" y1="40.7" y2="53.7" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" class="colorStroke000000 svgStroke"></line>
+    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" points="28.3 21.9 33 17.6 37.7 21.9"></polyline>
+    <line x1="49.2" x2="43.1" y1="33.5" y2="27.8" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" class="colorStroke000000 svgStroke"></line>
+    <line x1="23" x2="16.8" y1="27.8" y2="33.5" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" class="colorStroke000000 svgStroke"></line>
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M43.1,37.1v-4.7v-7.7c0-1.6-1.3-2.8-2.8-2.8H25.8c-1.6,0-2.8,1.3-2.8,2.8v7.7v4.7" class="colorStroke000000 svgStroke"></path>
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M34.9,31.7c0,1.1-0.5,2.1-1.6,2.1s-2.1-0.9-2.1-2.1c0-1.1,0.9-2.1,2.1-2.1S34.9,30.6,34.9,31.7z" class="colorStroke000000 svgStroke"></path>
+    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M30.2,36.3c-2.1-1.2-3.3-3.6-2.8-6.3c0.4-2.2,2.2-4,4.4-4.5c4.1-0.9,7.7,2.6,7,6.6c-0.1,0.9-0.6,1.8-1.3,2.3
+			c-0.4,0.3-0.8,0.5-1.3,0.5l0,0c-0.8,0-1.5-0.7-1.5-1.5v-4.3" class="colorStroke000000 svgStroke"></path>
+  </g>
+</svg>

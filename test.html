@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content-wrapper">
+        <section class="content-block">
+            <div class="container">
+                <div class="row multiple-row v-align-row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="col-wrap">
+                            <div class="block-heading">
+                                <h3 class="block-top-heading">Why Choose Us</h3>
+                                <div class="divider">
+                                    <img src="img/divider.png" alt="images description">
+                                </div>
+                                <p class="pr-5">Our training modules are meticulously crafted to enhance both technical and interpersonal skills, ensuring you are well-prepared for various roles within the hospitality industry. Whether you're aiming for a front-of-house position or a managerial role, our training will give you a competitive edge.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6">
+                        <div class="why-choose-section-circle-container">
+                            <!-- Content in the Center -->
+                            <div id="content1" class="why-choose-section-content active">
+                                <h4 class="why-choose-section-head">Tailored Training Programs</h4>
+                                <p class="why-choose-section-para">Our training modules are meticulously crafted to enhance both technical and interpersonal skills.</p>
+                            </div>
+                            <div id="content2" class="why-choose-section-content">
+                                <h4 class="why-choose-section-head">Global Internship Opportunities</h4>
+                                <p class="why-choose-section-para">Gain invaluable hands-on experience through our international internship programs.</p>
+                            </div>
+                            <div id="content3" class="why-choose-section-content">
+                                <h4 class="why-choose-section-head">Expert Guidance and Support</h4>
+                                <p class="why-choose-section-para">Our seasoned trainers and career advisors are committed to guiding you every step of the way.</p>
+                            </div>
+                            <div id="content4" class="why-choose-section-content">
+                                <h4 class="why-choose-section-head">Comprehensive Visa Assistance</h4>
+                                <p class="why-choose-section-para">Our Visa Assistance services simplify the process, ensuring that you meet all requirements.</p>
+                            </div>
+                            <!-- Add other content sections similarly -->
+                            
+                            <!-- Icons around the circle -->
+                            <div class="icon-container">
+                                <div class="why-choose-section-icon why-choose-section-icon1" onclick="showContent(1)">
+                                    <img src="icons/market-trends.svg" class="why-choose-section-image"/>
+                                </div>
+                                <div class="why-choose-section-icon why-choose-section-icon2" onclick="showContent(2)">
+                                    <img src="icons/global.svg" class="why-choose-section-image"/>
+                                </div>
+                                <div class="why-choose-section-icon why-choose-section-icon3" onclick="showContent(3)">
+                                    <img src="icons/advice.svg" class="why-choose-section-image"/>
+                                </div>
+                                <div class="why-choose-section-icon why-choose-section-icon4" onclick="showContent(4)">
+                                    <img src="icons/visa.svg" class="why-choose-section-image"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script>
+        function showContent(iconNumber) {
+            // Hide all content
+            document.querySelectorAll('.why-choose-section-content').forEach(content => content.classList.remove('active'));
+    
+            // Show the selected content
+            document.getElementById(`content${iconNumber}`).classList.add('active');
+        }
+    </script>
+    
+    <style>
+    .why-choose-section-circle-container {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        margin: 50px auto;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .icon-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none; /* prevents interference with the center content */
+    }
+    
+    .why-choose-section-icon {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #4caf50;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        pointer-events: all; /* enables clicking on icons */
+    }
+    
+    .why-choose-section-icon:hover {
+        background-color: #45a049;
+    }
+    
+    /* Positioning each icon around the circle */
+    .why-choose-section-icon1 { top: 0; left: 50%; transform: translate(-50%, -50%); }
+    .why-choose-section-icon2 { top: 50%; right: 0; transform: translate(50%, -50%); }
+    .why-choose-section-icon3 { bottom: 0; left: 50%; transform: translate(-50%, 50%); }
+    .why-choose-section-icon4 { top: 50%; left: 0; transform: translate(-50%, -50%); }
+    
+    /* Content Display */
+    .why-choose-section-content {
+        display: none;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .why-choose-section-content.active {
+        display: block;
+    }
+    
+    .why-choose-section-image {
+        width: 40px;
+    }
+    
+    .why-choose-section-head {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .why-choose-section-para {
+        font-size: 14px;
+        padding: 15px;
+    }
+    </style>
+    
+</body>
+</html>
